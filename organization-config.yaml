@@ -3,6 +3,8 @@
 # matches before continuing to execute the deployment pipeline.
 
 enable: true
+ignoredOus:
+  - Suspended
 organizationalUnits:
   - name: Security
   - name: Infrastructure
@@ -64,15 +66,3 @@ backupPolicies:
     deploymentTargets:
       organizationalUnits:
         - Root
-
-defaultOrganization:
-  ignoredAccounts:
-    - "050752617192"
-    - "412381771750"
-    - "535002866869"
-    - "640168456782"
-    - "911167902106"
-    - "474668381494"
-    - "724772090475"
-    - "221082185409"
-    - "456276248776"

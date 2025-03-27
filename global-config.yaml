@@ -21,7 +21,7 @@ snsTopics:
       emailAddresses:
         - "tanyishengalvan+awslzasecurity@gmail.com"
 controlTower:
-  enable: true
+  enable: false
   landingZone:
     version: '3.3'
     logging:

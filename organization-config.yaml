@@ -7,8 +7,7 @@ organizationalUnits:
   - name: Security
   - name: Infrastructure
   - name: Suspended
-ignoredOus:
-  - Suspended
+    ignore: true
 quarantineNewAccounts:
   enable: true
   scpPolicyName: Quarantine

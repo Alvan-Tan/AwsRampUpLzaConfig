@@ -18,3 +18,11 @@ workloadAccounts: []
   # The "name" will be used to set the AWS Account name
   # The "name" value does not currently support spaces
   # The "name" value DOES NOT need to match the account name
+  - name: Network
+    description: The network account. Do not change the name field for this account. Note, the account name key does not need to match the AWS account name.
+    email: "tanyishengalvan+awslzanetwork@gmail.com"
+    organizationalUnit: Infrastructure
+  - name: SharedServices
+    description: The Shared services account. Do not change the name field for this account. Note, the account name key does not need to match the AWS account name.
+    email: "tanyishengalvan+awslzasharedservices@gmail.com"
+    organizationalUnit: Infrastructure

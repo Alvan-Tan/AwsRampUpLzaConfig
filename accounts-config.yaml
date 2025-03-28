@@ -18,11 +18,3 @@ workloadAccounts:
   # The "name" will be used to set the AWS Account name
   # The "name" value does not currently support spaces
   # The "name" value DOES NOT need to match the account name
-  - name: SharedServices
-    description: The SharedServices account
-    email: "tanyishengalvan+awslzasharedservices@gmail.com"
-    organizationalUnit: Infrastructure
-  - name: Network
-    description: The Network account
-    email: "tanyishengalvan+awslzanetwork@gmail.com"
-    organizationalUnit: Infrastructure

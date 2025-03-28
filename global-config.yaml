@@ -22,14 +22,14 @@ snsTopics:
         - "tanyishengalvan+awslzasecurity@gmail.com"
 controlTower:
   enable: false
-  landingZone:
-    version: '3.3'
-    logging:
-      loggingBucketRetentionDays: 365
-      accessLoggingBucketRetentionDays: 3650
-      organizationTrail: true
-    security:
-      enableIdentityCenterAccess: true
+  # landingZone:
+  #   version: '3.3'
+  #   logging:
+  #     loggingBucketRetentionDays: 365
+  #     accessLoggingBucketRetentionDays: 3650
+  #     organizationTrail: true
+  #   security:
+  #     enableIdentityCenterAccess: true
 logging:
   account: LogArchive
   cloudtrail:

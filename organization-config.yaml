@@ -3,11 +3,12 @@
 # matches before continuing to execute the deployment pipeline.
 
 enable: true
-ignoredOus:
-  - Suspended
 organizationalUnits:
   - name: Security
   - name: Infrastructure
+  - name: Suspended
+ignoredOus:
+  - Suspended
 quarantineNewAccounts:
   enable: true
   scpPolicyName: Quarantine

@@ -26,39 +26,3 @@ workloadAccounts:
     description: The Shared services account. Do not change the name field for this account. Note, the account name key does not need to match the AWS account name.
     email: "tanyishengalvan+awslzasharedservices@gmail.com"
     organizationalUnit: Infrastructure
-  - name: user1
-    description: Suspended account
-    email: "awsrampupuser1@example.com"
-    organizationalUnit: Suspended
-  - name: user2
-    description: Suspended account
-    email: "awsrampupuser2@example.com"
-    organizationalUnit: Suspended
-  - name: user3
-    description: Suspended account
-    email: "user3@awsrampup.com"
-    organizationalUnit: Suspended
-  - name: user4
-    description: Suspended account
-    email: "user4@awsrampup.com"
-    organizationalUnit: Suspended
-  - name: user5
-    description: Suspended account
-    email: "user5@awsrampup.com"
-    organizationalUnit: Suspended
-  - name: user6
-    description: Suspended account
-    email: "user6@awsrampup.com"
-    organizationalUnit: Suspended
-  - name: user7
-    description: Suspended account
-    email: "user7@awsrampup.com"
-    organizationalUnit: Suspended
-  - name: user8
-    description: Suspended account
-    email: "user8@awsrampup.com"
-    organizationalUnit: Suspended
-  - name: user9
-    description: Suspended account
-    email: "user9@awsrampup.com"
-    organizationalUnit: Suspended
